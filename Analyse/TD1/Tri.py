@@ -82,11 +82,6 @@ time_fast = []
 input_size = []
 
 """
-ouverture du fichier csv en mode écriture
-"""
-
-
-"""
 Nom : Recuper Temps d'execution
 Description : Recuper le temps d'execution d'un algorithme
 Entrée : Un tableau et un algorithme de tri
@@ -96,6 +91,11 @@ def get_runtime(sorting_algorithm, array):
     timeTook, result = lib.runtime(sorting_algorithm, array)
     return timeTook
 
+
+
+"""
+ouverture du fichier csv en mode écriture
+"""
 
 with open('input.csv', 'w') as f:
 
