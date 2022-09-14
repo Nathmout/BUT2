@@ -43,43 +43,31 @@ Description : Tri par comparaison
 Entrée : Un tableau
 Sortie : Le tableau trié
 """
-def sort_fast(array):
-    size_array = len(array)
-    for i in range(size_array):
-        swapped = False
-        for j in range(size_array-i-1):
-            if array[j] > array[j+1]:
-                array[j], array[j+1] = array[j+1], array[j]
-                swapped = True
-        if not swapped:
-            break
-        swapped = False
-        for j in range(size_array-i-1, i, -1):
-            if array[j] < array[j-1]:
-                array[j], array[j-1] = array[j-1], array[j]
-                swapped = True
-        if not swapped:
-            break
+def quick_sort(array):
+    if len(array) <= 1:
+        return array
+    else:
+        pivot = array.pop()
+    greater = []
+    lower = []
+    for i in array:
+        if i > pivot:
+            greater.append(i)
+        else:
+            lower.append(i)
+    return quick_sort(lower) + [pivot] + quick_sort(greater)
 
 """
 Nom : Creation d'un tableau
-Description : Creation d'un tableau de taille size
+Description : Creation d'un tableau de taille size avec comme valeur de 1 a Size
 Entrée : Size = Un entier
-Sortie : array = Un tableau de la taille de l'entier
+Sortie : array = Un tableau
 """
 def create_array(size):
     array = []
     for i in range(size):
         array.append(size-i)
     return array
-
-"""
-Variable global
-"""
-time_bubble = []
-time_bubble_upgrad = []
-time_fast = []
-input_size = []
 
 """
 Nom : Recuper Temps d'execution
@@ -91,14 +79,14 @@ def get_runtime(sorting_algorithm, array):
     timeTook, result = lib.runtime(sorting_algorithm, array)
     return timeTook
 
-
-
 """
 ouverture du fichier csv en mode écriture
 """
-
 with open('input.csv', 'w') as f:
-
+    time_bubble = []
+    time_bubble_upgrad = []
+    time_fast = []
+    input_size = []
     for i in range(1,1000):
 
         temp_array = create_array(i)
