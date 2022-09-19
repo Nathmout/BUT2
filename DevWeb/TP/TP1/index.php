@@ -133,6 +133,7 @@
 
 <h1>EXERCICE 9</h1>
 <?php
+	echo "voir en commentaire"
 	/* echo mime_content_type("index.php"); */
 	/* header("Content-Type: text/json"); */
 ?>
