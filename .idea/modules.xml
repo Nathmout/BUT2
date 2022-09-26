@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BUT2.iml" filepath="$PROJECT_DIR$/.idea/BUT2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevEfficace/BaseProject/BaseProject.iml" filepath="$PROJECT_DIR$/DevEfficace/BaseProject/BaseProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevEfficace/DevEfficace.iml" filepath="$PROJECT_DIR$/DevEfficace/DevEfficace.iml" />
+    </modules>
+  </component>
+</project>

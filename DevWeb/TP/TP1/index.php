@@ -1,6 +1,6 @@
 <html>
 <body>
-   <h2>EXERCICE 3</h2>
+   <h1>EXERCICE 1</h1>
 <?php
 	$valeur = rand(0, 10);
 	if ($valeur % 2 == 0) {
