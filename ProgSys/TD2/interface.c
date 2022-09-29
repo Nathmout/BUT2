@@ -2,8 +2,7 @@
 
 int main(int argn, char *argv[],char *arge[])
 {
-	// print argv and arge and argn
-	printf("argn = %d",argn);
+	printf("argn = %d\n",argn-1);
 	for (int i = 0; i < argn; i++)
 	{
 		printf("argv[%d] = %s\n",i,argv[i]);
