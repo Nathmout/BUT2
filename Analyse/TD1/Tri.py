@@ -10,7 +10,7 @@ lib = BigO()
 """
 Nom : Tri a bulle
 Description : Tri par comparaison
-Entrée : Un tableau
+Entrée : array = Un tableau
 Sortie : Le tableau trié
 """
 def bubble_sort(array):
@@ -23,7 +23,7 @@ def bubble_sort(array):
 """
 Nom : Tri à bulle améliorer
 Description : Tri par comparaison
-Entrée : Un tableau
+Entrée : array = Un tableau
 Sortie : Le tableau trié
 """
 def bubble_sort_upgrad(array):
@@ -40,7 +40,7 @@ def bubble_sort_upgrad(array):
 """
 Nom : Tri rapide
 Description : Tri par comparaison
-Entrée : Un tableau
+Entrée : array = Un tableau
 Sortie : Le tableau trié
 """
 def quick_sort(array):

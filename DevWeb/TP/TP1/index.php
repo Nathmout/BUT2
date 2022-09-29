@@ -15,7 +15,6 @@
 <?php
 	}
 ?>
-
 <h1>EXERCICE 2</h1>
 
 <select name="" id="">
