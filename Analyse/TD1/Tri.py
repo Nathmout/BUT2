@@ -3,13 +3,12 @@ import csv
 import numpy as np
 
 """
-Renommage de la librairie bigO en lib
+Renomme la librairie bigO en lib
 """
 lib = BigO()
 
 """
 Nom : Tri a bulle
-Description : Tri par comparaison
 Entrée : array = Un tableau
 Sortie : Le tableau trié
 """
@@ -39,7 +38,6 @@ def bubble_sort_upgrad(array):
 
 """
 Nom : Tri rapide
-Description : Tri par comparaison
 Entrée : array = Un tableau
 Sortie : Le tableau trié
 """
@@ -87,7 +85,7 @@ with open('input.csv', 'w') as f:
     time_bubble_upgrad = []
     time_fast = []
     input_size = []
-    for i in range(1,1000):
+    for i in range(1,100):
 
         temp_array = create_array(i)
 
@@ -95,7 +93,7 @@ with open('input.csv', 'w') as f:
         Recuperation des temps d'execution de chaque algo de tri puis ajout dans son tableau dédié
         """
         time_bubble_upgrad.append(get_runtime(bubble_sort_upgrad, temp_array))
-        time_fast.append(get_runtime(sort_fast, temp_array))
+        time_fast.append(get_runtime(quick_sort, temp_array))
         time_bubble.append(get_runtime(bubble_sort, temp_array))
 
         input_size.append(i)
