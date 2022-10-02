@@ -6,7 +6,8 @@
 //
 // n est un entier car il va jusqu'a 2^32 bits
 //
-//
+// Le cribe d'Erathostene est il adapté au chiffrage RSA
+// oui car il permet de trouver les nombres premiers
 public class TD1
 {
 	public static class Premier
@@ -101,11 +102,7 @@ public class TD1
 		int res = 1;
 		for (int k = 0; k < j; k++)
 		{
-			res = res * tab2[k];
-		}
-		for (int k = 0; k < j; k++)
-		{
-			res = res * (1 - 1 / tab2[k]);
+			res = res * (tab2[k] - 1);
 		}
 		return res;
 	}
