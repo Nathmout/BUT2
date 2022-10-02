@@ -85,11 +85,35 @@ public class TD1
 
 	public static int euler (int n)
 	{
-
+		int[] tab = decompositionEnNombrePremier(n);
+		int[] tab2 = new int[n];
+		int i = 0;
+		int j = 0;
+		while (tab[i] != 0)
+		{
+			if (tab[i] != tab[i + 1])
+			{
+				tab2[j] = tab[i];
+				j++;
+			}
+			i++;
+		}
+		int res = 1;
+		for (int k = 0; k < j; k++)
+		{
+			res = res * tab2[k];
+		}
+		for (int k = 0; k < j; k++)
+		{
+			res = res * (1 - 1 / tab2[k]);
+		}
+		return res;
 	}
+
 
 	static void Main()
 	{
-		System.Console.WriteLine(euler(3220));
+		// use euler
+		System.Console.WriteLine(euler(10));
 	}
 }

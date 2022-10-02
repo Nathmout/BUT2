@@ -85,7 +85,7 @@ with open('input.csv', 'w') as f:
     time_bubble_upgrad = []
     time_fast = []
     input_size = []
-    for i in range(1,100):
+    for i in range(1,1000):
 
         temp_array = create_array(i)
 
