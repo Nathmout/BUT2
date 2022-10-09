@@ -1,9 +1,5 @@
 <?php
-$db = new PDO(
-    'mysql:host=localhost;port=3306;dbname=R301',
-    'phpmyadmin',
-    'password'
-);
+include('../include/pdo.php');
 
 if(isset($_POST['recherche'])) {
     $recherche = $_POST['recherche'];
@@ -23,6 +19,7 @@ if(isset($_POST['recherche'])) {
     }
     echo "</table>";
 } else {
+
     echo "<table>";
     echo "<tr><th>id</th><th>nom</th><th>genre</th><th>artiste</th><th>date</th></tr>";
     foreach ($db->query('SELECT * FROM album') as $row) {

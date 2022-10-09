@@ -1,10 +1,6 @@
 <?php
 header('Content-type:text/html;charset=utf-8');
-$db = new PDO(
-    'mysql:host=localhost;port=3306;dbname=R301',
-    'phpmyadmin',
-    'password'
-);
+include('../include/pdo.php');
 
 $db->exec('SET NAMES UTF8');
 $artiste = file('artiste.csv');
