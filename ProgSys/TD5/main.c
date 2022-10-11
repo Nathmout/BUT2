@@ -14,6 +14,5 @@ int main (int argc, char *argv[])
 	t3.min = 15;
 
 	printf("t1 = %d:%d et t2 = %d:%d et t3 = %d:%d",t1.h,t1.min,t2.h,t2.min,t3.h,t3.min);
-	printf("%d",tempsSum(t1,t2));
 	return 0;
 }
