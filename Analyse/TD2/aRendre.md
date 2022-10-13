@@ -15,7 +15,10 @@
 	- Car mise en prod pas demander
 
 ### Sujet : Convertir Chiffre/Nombre en $ en lettre
-	Exemple : 123 => cent vingt trois
-	Chaque faute dans écriture des nombre === t'es mort a dis mahric
-	Ne pas le programmer surtout pas sinon tabassage en regle par mac mahric
-	Pas un bout de code sinon mort
+	- Exemple : 123 => cent vingt trois
+	- Chaque faute dans écriture des nombre === t'es mort a dis mahric
+	- Ne pas le programmer surtout pas sinon tabassage en regle par mac mahric
+	- Pas un bout de code sinon mort
+	- Intervalle :
+		- 1centimes
+		- 1 millions - 1 centimes
