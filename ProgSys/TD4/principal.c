@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
 	float valeur = 0, chiffre;
 	int i;
 
-
 	printf("Nombre de valeurs : %d\n", NBVALEUR);
 
 	for (int i = 0; i < NBVALEUR; ++i) {

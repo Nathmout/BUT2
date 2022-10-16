@@ -1,0 +1,15 @@
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.csproj.AssemblyReference.cache
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.GeneratedMSBuildEditorConfig.editorconfig
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.AssemblyInfoInputs.cache
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.AssemblyInfo.cs
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.csproj.CoreCompileInputs.cache
+/home/nuxnux/BUT2/Crypto/ProjectTD2/bin/Debug/net6.0/ProjectTD2
+/home/nuxnux/BUT2/Crypto/ProjectTD2/bin/Debug/net6.0/ProjectTD2.deps.json
+/home/nuxnux/BUT2/Crypto/ProjectTD2/bin/Debug/net6.0/ProjectTD2.runtimeconfig.json
+/home/nuxnux/BUT2/Crypto/ProjectTD2/bin/Debug/net6.0/ProjectTD2.dll
+/home/nuxnux/BUT2/Crypto/ProjectTD2/bin/Debug/net6.0/ProjectTD2.pdb
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.dll
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/refint/ProjectTD2.dll
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.pdb
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ProjectTD2.genruntimeconfig.cache
+/home/nuxnux/BUT2/Crypto/ProjectTD2/obj/Debug/net6.0/ref/ProjectTD2.dll
