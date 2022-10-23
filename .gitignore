@@ -6,3 +6,7 @@
 
 # Unignore all dirs
 !*/
+
+# smarty and Flight
+./DevWeb/TP/includes/smarty-4.2.1/*
+./DevWeb/TP/includes/flight-master/*

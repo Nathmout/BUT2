@@ -4,4 +4,3 @@ $db = new PDO(
 	'phpmyadmin',
 	'password'
 );
-?>

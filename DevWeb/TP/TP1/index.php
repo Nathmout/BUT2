@@ -79,7 +79,6 @@
 ?>
 </table>
 
-
 <h1>EXERCICE 5</h1>
 <?php
 	$chaine = 'david.durand@u-picardie.com';
