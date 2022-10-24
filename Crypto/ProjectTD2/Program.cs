@@ -6,27 +6,17 @@
 static double ExponentiationModulaire(int fact, int puissance, int modulo)
 {
     String pui = binaire(puissance);
-    double fact_x = 0;
-    double x = 0;
-    double res = 1;
-    int n = 0;
-
-    for (int i = pui.Length - 1; i >= 0; i--)
-    {
-
-		Console.Write("pui[i] : " + pui[i] + "");
-        fact_x = pui[i] * Math.Pow(2, n);
-        Console.WriteLine("fact_x : " + fact_x);
-        x = Math.Pow(4, fact_x) % modulo;
-        Console.WriteLine("x : " + x);
-        res = res * x;
-        Console.WriteLine("res : " + res);
-        n++;
-    }
-    res = res % modulo;
-
-    return res;
+	double result = 1;
+	for (int i = 0; i < pui.Length; i++)
+	{
+		result = (result * result) % modulo;
+		if (pui[i] == '1')
+		{
+			result = (result * fact) % modulo;
+		}
+	}
+    return result;
 }
 
 double test = ExponentiationModulaire(4, 13, 497);
-/* System.Console.WriteLine(test); */
+System.Console.WriteLine(test);
